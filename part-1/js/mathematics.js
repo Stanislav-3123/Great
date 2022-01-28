@@ -1,0 +1,15 @@
+let a = "" + 1 + 0 // "10"
+let b = "" - 1 + 0 // -1
+let c = true + false // 1
+let e = 6 / "3" // 2
+let g = "2" * "3" // 6
+let h = 4 + 5 + "px" // "9px"
+let i = "$" + 4 + 5 // "$45"
+let g = "4" - 2 // 2
+let k = "4px" - 2 // NaN
+let l = 7 / 0 // Infinity
+let m = "  -9  " + 5 // " -9 5"
+let n = "  -9  " - 5 // -14
+let o = null + 1 // 1
+let p = undefined + 1 // NaN
+let q = " \t \n" - 2 // -2
